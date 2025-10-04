@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
-// This is a spring boot application Hence @SpringBootApplication annotation is required
+// This is a spring boot applicationn
 @SpringBootApplication
 @EnableZuulProxy
 public class ZuulProxyApplication {
@@ -13,5 +13,4 @@ public class ZuulProxyApplication {
 		System.out.println("Starting Application");
 		SpringApplication.run(ZuulProxyApplication.class, args);
 	}
-
 }
